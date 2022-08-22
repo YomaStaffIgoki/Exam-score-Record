@@ -1,0 +1,22 @@
+const examResult = function(exam, firstCa, secondCa) {
+      let total = exam + firstCa + secondCa;
+      if(total <= 40) {
+        console.log('Your score is ' + total + '\n');
+        console.log('You got an F');
+      }
+      else if (total < 70 && total > 40) {
+        console.log('Your score is ' + total + '\n');
+        console.log('You got a B');
+       }
+
+       else (total > 69)
+        console.log('Your score is ' + total + '\n');
+        console.log('You got an A, Excellent!');
+       
+
+       
+
+  
+    } 
+    examResult(parseInt(prompt('enter exam score')), parseInt(prompt('enter firstCA score')), parseInt(prompt('enter secondCA score')) );
+ 
